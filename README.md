@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./src/assets/images/logo.svg">
+</h1>
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-construído-utilizando">Construído utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-utilizar">Como utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-## Available Scripts
+<br/>
+<div align="center">
+  <a href="https://github.com/ViniciusMazon/LetMeAsk"><img alt="GitHub license" src="https://img.shields.io/github/license/ViniciusMazon/LetMeAsk?style=plastic"></a>
+</div>
+<br/>
+<br/>
+<div align="center">
+  <img src="documents/readme/web.png">
+</div>
+<br/>
 
-In the project directory, you can run:
+# Sobre o projeto
 
-### `npm start`
+O LetMeAsk é uma plataforma de perguntas e respostas dedicada a criadores de conteúdo que são bombardeados com perguntas em suas transmissões. O LetMeAsk permite que a comunidade vote nas perguntas mais relevantes, bem como permite que o administrador da sala destaque e apague perguntas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto desenvolvido durante a NLW 6, evento da [Rocketseat](https://github.com/rocketseat-education)💜.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Demo: https://letmeask-b3b02.web.app/
+Vídeo demo: https://youtu.be/CGSconZTE2Q
 
-### `npm test`
+# 🔬 Construído utilizando
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [react](https://pt-br.reactjs.org/)
+* [sass](https://sass-lang.com/)
+* [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+* [firebase](https://console.firebase.google.com/)
+* [react-hot-toast](https://react-hot-toast.com/)
+* [classnames](https://www.npmjs.com/package/classnames)
+</br>
 
-### `npm run build`
+# ⚙️ Como utilizar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/ViniciusMazon/LetMeAsk.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instale as dependência rodando dentro do diretório criado, rodando:
+```
+yarn
+```
+Rode o projeto utilizando o script:
+```
+yarn start
+```
+</br>
 
-### `npm run eject`
+# 🖖🏻 Como contribuir
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Faça um fork desse repositório;
+- Clone esse repositório em sua máquina: git clone `https://github.com/ViniciusMazon/LetMeAsk.git`
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça o commit dos testes: `git commit -m 'test: Nome do teste'`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+</br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# 📃 Licença
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com 🖤 por Vinicius Mazon.# let-me-ask
