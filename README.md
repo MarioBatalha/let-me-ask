@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./src/assets/images/logo.svg">
+  <img src="src\assets/images\logo.svg">
 </h1>
 <br />
 
@@ -33,13 +33,13 @@ Vídeo demo: https://youtu.be/CGSconZTE2Q
 
 # 🔬 Construído utilizando
 
-* [react](https://pt-br.reactjs.org/)
-* [sass](https://sass-lang.com/)
-* [react-router-dom](https://reactrouter.com/web/guides/quick-start)
-* [firebase](https://console.firebase.google.com/)
-* [react-hot-toast](https://react-hot-toast.com/)
-* [classnames](https://www.npmjs.com/package/classnames)
-</br>
+- [react](https://pt-br.reactjs.org/)
+- [sass](https://sass-lang.com/)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+- [firebase](https://console.firebase.google.com/)
+- [react-hot-toast](https://react-hot-toast.com/)
+- [classnames](https://www.npmjs.com/package/classnames)
+  </br>
 
 # ⚙️ Como utilizar
 
@@ -50,13 +50,17 @@ git clone https://github.com/ViniciusMazon/LetMeAsk.git
 ```
 
 Instale as dependência rodando dentro do diretório criado, rodando:
+
 ```
 yarn
 ```
+
 Rode o projeto utilizando o script:
+
 ```
 yarn start
 ```
+
 </br>
 
 # 🖖🏻 Como contribuir
@@ -77,4 +81,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ---
 
-Feito com 🖤 por Vinicius Mazon.# let-me-ask
+Feito com 🖤 por Vinicius Mazon.

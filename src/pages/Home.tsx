@@ -1,30 +1,32 @@
-import React from 'react';
-import IlustrationImg from '../assets/images/illustration.svg';
-import LogoImg from '../assets/images/logo.svg';
-import googleIconImg from '../assets/images/google-icon.svg';
+import googleIconImg from '../assets/images/google-icon.svg'
+import illustrationImg from '../assets/images/illustration.svg'
+import logoImg from '../assets/images/logo.svg'
+import '../styles/auth.scss'
 
-export const Home = () => {
+export function Home() {
   return (
-    <div>
+    <div id="page-auth">
       <aside>
-        <img src={IlustrationImg} alt="Ilustração de perguntas e respostas" />
-        <strong>Crie salas de Q&amp;A ao vivo</strong>
+        <img
+          src={illustrationImg}
+          alt="Ilustração simbolizando perguntas e respostas"
+        />
+        <strong>Crie salas de Q&amp;A ao-vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo-real</p>
       </aside>
       <main>
         <div>
-          <img src={LogoImg} alt="letmeask" />
+          <img src={logoImg} alt="Logo da LetMeAsk" />
           <button>
-            <img src={googleIconImg} alt="Logo do google" />
+            <img src={googleIconImg} alt="Logo do Google" />
             Crie sua sala com o Google
           </button>
-          <div>Ou entre em uma sala</div>
+          <div className="separator">ou entre em uma sala</div>
           <form>
             <input type="text" placeholder="Digite o código da sala" />
-            <button>Entrar na sala</button>
           </form>
         </div>
       </main>
     </div>
-  );
-};
+  )
+}
